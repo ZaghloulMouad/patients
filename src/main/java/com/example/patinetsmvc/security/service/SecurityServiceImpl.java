@@ -32,7 +32,7 @@ public class SecurityServiceImpl implements SecurityService {
         appUser.setPassword(hashedPWD);
         appUser.setActive(true);
         AppUser savedAppUser=appUserRepository.save(appUser);
-
+        //
         return savedAppUser;
     }
 
