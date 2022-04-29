@@ -35,7 +35,7 @@ public class PatinetsMvcApplication  {
          });
         };
     }
- @Bean
+    //@Bean
    CommandLineRunner saveUsers(SecurityService securityService){
         return args -> {
          securityService.saveUser("Yassine","1234","1234");
